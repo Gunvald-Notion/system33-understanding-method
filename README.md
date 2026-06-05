@@ -233,7 +233,7 @@ Here is the Understanding Method applied to a real concept, start to finish. Rea
 4  ║ [x] 2 Origin     [x] 5 Apply     ║
 5  ║ [x] 3 Principle  [x] 6 Output    ║
 6  ╟──────────────────────────────────╢
-7  ║ [████████████] 6/6 · Done ✓      ║
+7  ║ [████████████] 6/6 · Done        ║
 8  ╚══════════════════════════════════╝
 ```
 
