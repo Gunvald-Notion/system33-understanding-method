@@ -88,17 +88,17 @@ This is a conversation. Ask questions. Wait for answers. Let the user think. Som
 Progress dashboard — display at the start and update before each stage:
 
 ```
-  0         1         2         3         4
-  012345678901234567890123456789012345678901234
-0          ╔══════════════════════════════════╗
-1          ║ SYSTEM 32 - UNDERSTANDING METHOD ║
-2          ║                                  ║
-3          ║ [>] 1 Intake     [ ] 4 Expansion ║
-4          ║ [ ] 2 Origin     [ ] 5 Apply     ║
-5          ║ [ ] 3 Principle  [ ] 6 Output    ║
-6          ║──────────────────────────────────║
-7          ║ [██░░░░░░░░░░] 1/6              ║
-8          ╚══════════════════════════════════╝
+   0         1         2         3
+   012345678901234567890123456789012345
+0  ╔══════════════════════════════════╗
+1  ║ SYSTEM 33 · UNDERSTANDING METHOD ║
+2  ║                                  ║
+3  ║ [>] 1 Intake     [ ] 4 Expansion ║
+4  ║ [ ] 2 Origin     [ ] 5 Apply     ║
+5  ║ [ ] 3 Principle  [ ] 6 Output    ║
+6  ╟──────────────────────────────────╢
+7  ║ [██░░░░░░░░░░] 1/6 · Intake      ║
+8  ╚══════════════════════════════════╝
 ```
 
 Mark completed stages with [x], the active stage with [>], and upcoming stages with [ ]. Fill the progress bar proportionally.
@@ -224,17 +224,17 @@ The act of producing this output is itself a final test. If you struggle to arti
 Here is the Understanding Method applied to a real concept, start to finish. Read this to see what a completed run looks like before you try your own.
 
 ```
-  0         1         2         3         4
-  012345678901234567890123456789012345678901234
-0          ╔══════════════════════════════════╗
-1          ║ SYSTEM 32 - UNDERSTANDING METHOD ║
-2          ║                                  ║
-3          ║ [x] 1 Intake     [x] 4 Expansion ║
-4          ║ [x] 2 Origin     [x] 5 Apply     ║
-5          ║ [x] 3 Principle  [x] 6 Output    ║
-6          ║──────────────────────────────────║
-7          ║ [████████████] 6/6 ✓            ║
-8          ╚══════════════════════════════════╝
+   0         1         2         3
+   012345678901234567890123456789012345
+0  ╔══════════════════════════════════╗
+1  ║ SYSTEM 33 · UNDERSTANDING METHOD ║
+2  ║                                  ║
+3  ║ [x] 1 Intake     [x] 4 Expansion ║
+4  ║ [x] 2 Origin     [x] 5 Apply     ║
+5  ║ [x] 3 Principle  [x] 6 Output    ║
+6  ╟──────────────────────────────────╢
+7  ║ [████████████] 6/6 · Done ✓      ║
+8  ╚══════════════════════════════════╝
 ```
 
 **Stage 1 — Intake**
