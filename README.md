@@ -63,15 +63,19 @@ No AI? Read the stages below and walk through them yourself. The method works ei
 
 ## What This Is
 
-When you learn something the usual way — read it, maybe take notes, move on — most of it fades within a week. Not because you're bad at learning, but because the information was never anchored to anything. It passed through.
+The Understanding Method is a walkthrough — six stages, from intake to output. You take one subject and move it from step one to step six, and by the end you don't just know it. You understand it.
 
-This method came from a simple problem. I have dyslexia. Every piece of knowledge I gain costs more effort than it costs most people. Losing it after all that work was something I couldn't accept. So I needed a way to make things stick — really stick, not just for the exam, but for life.
+**Step 1 — Intake.** You decide what you're going to understand. That choice is itself the first act of understanding: naming the one thing you're going to chase.
 
-What I found is that understanding holds where memorization doesn't. And understanding comes from a specific sequence: you find out where a concept sits in the world, you go back to *why* it was created — the actual problem someone was trying to solve — you pull out the principle underneath it, you see how people who really know this thing use it in practice, and then you connect it to your own situation. After that, the concept isn't something you read about. It's something you *get*.
+**Step 2 — Origin.** You start building that understanding by going back to where it came from. Why was it created? What was the injury — the pain, the thing that was broken? Why did people need this invention, this technology, this idea? Understanding begins at the wound that made the thing necessary.
 
-That's what the six stages do. They walk you through that sequence, one step at a time. Some concepts will take ten minutes. Some will take an hour. Some will change how you think about an entire field. It depends on what you bring to it.
+**Step 3 — First Principle.** From the origin, you break it down to its first principle — the one line you can carry all the way through everything. You don't have to remember it all. You remember that single line, and the rest rebuilds from it.
 
-Six stages. In order. Each one builds on the last.
+**Step 4 — Strategic Expansion.** Then you look at how it's done at the highest level — the people who understand it more deeply than anyone, who've gone furthest with it. You learn fastest by studying the masters.
+
+**Step 5 — Application.** You find your own piece of it. Where does this live in your life, and how do you use it?
+
+**Step 6 — Output.** You save it. And later, when you need it again, you re-activate the Understanding Method for that subject — drop it back into your system and re-engage. Nothing is lost. Everything compounds.
 
 ---
 
