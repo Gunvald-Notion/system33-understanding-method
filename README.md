@@ -85,23 +85,24 @@ When the user gives you a concept, begin at Stage 1. Display the progress dashbo
 
 This is a conversation. Ask questions. Wait for answers. Let the user think. Sometimes the most important moment is the pause before they find the principle in their own words. Don't fill that silence with more information.
 
-Progress dashboard — display it at the start, and again at the beginning of each new stage. You do not need to draw it from scratch or count anything: each of the six stages below carries its own exact dashboard, ready to copy. Here is the starting state (Stage 1):
+Progress dashboard — display it at the start, and again at the beginning of each new stage. Two rules keep it from breaking. **First: every time you show it, output it inside a fenced code block (triple backticks), so it renders in a fixed-width font.** Never paste it as plain text — outside a code block the characters render at uneven widths and the bar and the steps stop lining up. **Second: copy the current stage's block exactly as written below — do not redraw it, reformat it, or count anything yourself.** Each of the six stages carries its own ready-made dashboard. Here is the starting state (Stage 1):
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [>] 1 Intake     [ ] 4 Expansion ║
-║ [ ] 2 Origin     [ ] 5 Apply     ║
-║ [ ] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [██░░░░░░░░░░] 1/6 · Intake      ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓░░░░░░░░░░]  1 / 6
+
+Step 1  [-]  Intake
+Step 2  [ ]  Origin
+Step 3  [ ]  Principle
+Step 4  [ ]  Strategic Expansion
+Step 5  [ ]  Application
+Step 6  [ ]  Output
 ```
 
-When you reach a new stage, copy that stage's dashboard exactly as written — do not redraw it from memory. Completed stages are marked [x], the active stage [>], and upcoming stages [ ]. The bar fills two cells for every stage reached.
+When you reach a new stage, copy that stage's block exactly as written — do not redraw it from memory, and keep it inside a fenced code block. Completed stages are marked [x], the stage you're on is marked [-], and upcoming stages are left blank. The bar fills two cells for every stage reached.
 
-Width rule — you should not need this, because every dashboard below is provided ready-made, but if you ever rebuild a row by hand: each line between the two vertical walls (the ║ characters) is exactly 34 characters wide, counting every space. The top and bottom borders hold 34 box characters between the corners, and the divider holds 34. If a row is not exactly 34 wide, the right wall stops lining up.
+Why a code block — the dashboard lines up only because a fenced code block forces every character to the same width. That is the whole trick. There are no side-walls to keep aligned, so nothing can drift; you just need the monospace that the code fence guarantees. If you ever see the bar or the steps looking ragged, it is because the block was shown as plain text instead of inside triple backticks.
 
 ---
 
@@ -109,18 +110,19 @@ Width rule — you should not need this, because every dashboard below is provid
 
 ### Stage 1: Intake
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [>] 1 Intake     [ ] 4 Expansion ║
-║ [ ] 2 Origin     [ ] 5 Apply     ║
-║ [ ] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [██░░░░░░░░░░] 1/6 · Intake      ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓░░░░░░░░░░]  1 / 6
+
+Step 1  [-]  Intake
+Step 2  [ ]  Origin
+Step 3  [ ]  Principle
+Step 4  [ ]  Strategic Expansion
+Step 5  [ ]  Application
+Step 6  [ ]  Output
 ```
 
 Before you try to understand something, you need to know where it sits. A concept without context floats loose in your mind with nothing to attach to. This stage anchors it.
@@ -143,18 +145,19 @@ Do not move past this stage until all four questions are answered. Even rough an
 
 ### Stage 2: Origin
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [ ] 4 Expansion ║
-║ [>] 2 Origin     [ ] 5 Apply     ║
-║ [ ] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [████░░░░░░░░] 2/6 · Origin      ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓░░░░░░░░]  2 / 6
+
+Step 1  [x]  Intake
+Step 2  [-]  Origin
+Step 3  [ ]  Principle
+Step 4  [ ]  Strategic Expansion
+Step 5  [ ]  Application
+Step 6  [ ]  Output
 ```
 
 This is where most learning methods fail. They teach you *what* something is but never *why* it exists. Origin changes everything — when you know the problem that created a concept, you understand it at a level that memorization can never reach.
@@ -177,18 +180,19 @@ If you cannot find the exact origin, use the problem as your anchor. The problem
 
 ### Stage 3: Principle
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [ ] 4 Expansion ║
-║ [x] 2 Origin     [ ] 5 Apply     ║
-║ [>] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [██████░░░░░░] 3/6 · Principle   ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓░░░░░░]  3 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [-]  Principle
+Step 4  [ ]  Strategic Expansion
+Step 5  [ ]  Application
+Step 6  [ ]  Output
 ```
 
 Every concept rests on a bedrock truth — a first principle that, if you hold it, lets you reconstruct everything else. This stage finds that truth and compresses it.
@@ -207,18 +211,19 @@ Then check: does the compression reflect the principle? If you said only the com
 
 ### Stage 4: Strategic Expansion
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [>] 4 Expansion ║
-║ [x] 2 Origin     [ ] 5 Apply     ║
-║ [x] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [████████░░░░] 4/6 · Expansion   ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓▓▓░░░░]  4 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [x]  Principle
+Step 4  [-]  Strategic Expansion
+Step 5  [ ]  Application
+Step 6  [ ]  Output
 ```
 
 Textbooks tell you what a concept is. This stage shows you what it *does* in the hands of people who use it at the highest level. This is where knowledge becomes strategic — you see how the principle operates in real decisions, real companies, real situations.
@@ -239,18 +244,19 @@ Write about these examples as stories, not as a list. Show the principle alive i
 
 ### Stage 5: Application
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [x] 4 Expansion ║
-║ [x] 2 Origin     [>] 5 Apply     ║
-║ [x] 3 Principle  [ ] 6 Output    ║
-╟──────────────────────────────────╢
-║ [██████████░░] 5/6 · Apply       ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓▓▓▓▓░░]  5 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [x]  Principle
+Step 4  [x]  Strategic Expansion
+Step 5  [-]  Application
+Step 6  [ ]  Output
 ```
 
 This is where the concept becomes yours. Everything before this was about the concept in the world. This stage is about the concept in *your* life.
@@ -269,18 +275,19 @@ Connect:
 
 ### Stage 6: Output
 
-**Dashboard for this stage — copy it exactly, do not redraw it:**
+**Dashboard for this stage — copy the code block exactly, do not redraw it:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [x] 4 Expansion ║
-║ [x] 2 Origin     [x] 5 Apply     ║
-║ [x] 3 Principle  [>] 6 Output    ║
-╟──────────────────────────────────╢
-║ [████████████] 6/6 · Output      ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓▓▓▓▓▓▓]  6 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [x]  Principle
+Step 4  [x]  Strategic Expansion
+Step 5  [x]  Application
+Step 6  [-]  Output
 ```
 
 Understanding that stays in your head fades. This stage captures what you built so you can retrieve it, share it, and build on it.
@@ -301,18 +308,19 @@ The act of producing this output is itself a final test. If you struggle to arti
 
 **AI instruction:** Ask the user what they want to walk away with. Some people want the full summary. Some just want the principle card they can carry in their pocket. Some want to test themselves later. Let them choose. If they're not sure, give them the summary and the principle card — that covers most needs. The act of producing the output often surfaces gaps the user didn't notice. If that happens, it's fine to loop back to the stage where the gap lives. After the output is complete, display the final dashboard below — all stages marked [x], the bar full. That completion signal matters — it tells the user they built something real.
 
-**Completion dashboard — copy it exactly when the run is done:**
+**Completion dashboard — copy the code block exactly when the run is done:**
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [x] 4 Expansion ║
-║ [x] 2 Origin     [x] 5 Apply     ║
-║ [x] 3 Principle  [x] 6 Output    ║
-╟──────────────────────────────────╢
-║ [████████████] 6/6 · Done        ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓▓▓▓▓▓▓]  6 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [x]  Principle
+Step 4  [x]  Strategic Expansion
+Step 5  [x]  Application
+Step 6  [x]  Output
 ```
 
 ---
@@ -322,15 +330,16 @@ The act of producing this output is itself a final test. If you struggle to arti
 Here is the Understanding Method applied to a real concept, start to finish. Read this to see what a completed run looks like before you try your own.
 
 ```
-╔══════════════════════════════════╗
-║ SYSTEM 33 · UNDERSTANDING METHOD ║
-║                                  ║
-║ [x] 1 Intake     [x] 4 Expansion ║
-║ [x] 2 Origin     [x] 5 Apply     ║
-║ [x] 3 Principle  [x] 6 Output    ║
-╟──────────────────────────────────╢
-║ [████████████] 6/6 · Done        ║
-╚══════════════════════════════════╝
+SYSTEM 33 · UNDERSTANDING METHOD
+--------------------------------
+[▓▓▓▓▓▓▓▓▓▓▓▓]  6 / 6
+
+Step 1  [x]  Intake
+Step 2  [x]  Origin
+Step 3  [x]  Principle
+Step 4  [x]  Strategic Expansion
+Step 5  [x]  Application
+Step 6  [x]  Output
 ```
 
 **Stage 1 — Intake**
@@ -406,3 +415,5 @@ License: MIT — free to use, copy, modify, and share.
 *April 14, 2026* — Added Mermaid diagrams: version history, method ecosystem tree, and six-stage flow visualization.
 
 *June 5, 2026* — Gave every stage its own ready-to-copy progress dashboard so the AI no longer redraws or counts — it just copies the right one. Removed the coordinate-grid scaffolding (the ruler lines and row numbers) that was confusing AIs into reproducing it or mis-aligning the box. Documented the rule that each row between the walls is exactly 34 characters wide.
+
+*June 6, 2026* — Replaced the boxed dashboard — the version with side-walls that had to be counted to exactly 34 characters — with the wall-less bar already used on system33.io, so the two surfaces can no longer drift apart. Added the rule that the dashboard must always be shown inside a fenced code block; that monospace is what actually holds the alignment, on a phone as much as on a laptop.
